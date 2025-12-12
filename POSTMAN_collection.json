@@ -1,0 +1,8 @@
+{
+"info": {"name": "Frontend-Intern-Task API", "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"},
+"item": [
+{"name": "Register", "request": {"method":"POST","header":[],"body":{"mode":"raw","raw":"{\"email\":\"user@example.com\",\"password\":\"secret\"}"},"url":{"raw":"http://localhost:8000/auth/register","protocol":"http","host":["localhost"],"port":"8000","path":["auth","register"]}}},
+{"name":"Login","request":{"method":"POST","header":[],"body":{"mode":"raw","raw":"{\"email\":\"user@example.com\",\"password\":\"secret\"}"},"url":{"raw":"http://localhost:8000/auth/login","protocol":"http","host":["localhost"],"port":"8000","path":["auth","login"]}}},
+{"name":"List Notes","request":{"method":"GET","header":[{"key":"Authorization","value":"Bearer {{token}}"}],"url":{"raw":"http://localhost:8000/notes","protocol":"http","host":["localhost"],"port":"8000","path":["notes"]}}}
+]
+}
