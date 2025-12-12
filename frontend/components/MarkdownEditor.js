@@ -37,7 +37,7 @@ export function MarkdownEditor({ content, onChange, readOnly = false }) {
       </div>
 
       {preview ? (
-        <div className="p-4 border border-gray-300 dark:border-gray-600 rounded-lg bg-white dark:bg-gray-900 prose prose-sm dark:prose-invert max-w-none">
+        <div className="p-4 border border-gray-300 dark:border-gray-600 rounded-lg bg-white dark:bg-gray-900 prose prose-sm max-w-none">
           <ReactMarkdown
             remarkPlugins={[remarkGfm]}
             components={{
