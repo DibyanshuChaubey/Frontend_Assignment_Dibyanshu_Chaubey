@@ -6,3 +6,6 @@ alembic
 pydantic
 python-dotenv
 email-validator
+python-multipart
+passlib[bcrypt]
+psycopg2-binary==2.9.9
