@@ -16,6 +16,7 @@ app.add_middleware(
     allow_origins=[
         "http://localhost:3000",
         "https://mynoteapp-nine.vercel.app",
+        "https://frontend-assignment-dibyanshu-chaubey.onrender.com",
     ],
     allow_credentials=True,
     allow_methods=["*"],
